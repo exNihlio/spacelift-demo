@@ -8,7 +8,7 @@ variable "bucket_control_object_ownership" {
     type = bool
 }
 variable "bucket_object_ownership" {
-    type = bool
+    type = string
 }
 variable "environment" {
     type = string
